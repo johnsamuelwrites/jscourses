@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include "size.h"
+#include "operators.h"
 
 void print_octal() {
   int value = 0b10100100;
@@ -34,5 +35,17 @@ int main() {
 
   printf("\n");
   print_hexadecimal();
+
+  printf("\n");
+  print_result_relational_operators();
+
+  printf("\n");
+  print_result_logical_operators();
+
+  printf("\n");
+  print_result_increment_decrement_operators();
+
+  printf("\n");
+  print_result_bitwise_operators();
   return (0);
 }
