@@ -1,5 +1,47 @@
 #include <stdio.h>
 
+void print_variables() {
+  char my_char_var= 'a';
+  unsigned char my_uchar_var = 'b';
+
+  short my_short_var = -12;
+  unsigned short my_ushort_var = 12;
+  
+  int my_int_var = -12;
+  unsigned int my_uint_var = 12;
+
+  long int my_long_int_var = -12L;
+  unsigned long int my_ulong_int_var = 12UL;
+
+  long long int my_long_long_int_var = -12LL;
+  unsigned long long int my_ulong_long_int_var = 12ULL;
+
+  float my_float_var = 12e-3;
+
+  double my_double_var = 12e-3L;
+  long double my_long_double_var = 12e-3L;
+
+  printf("my_char_var: %c\n", my_char_var); 
+  printf("my_uchar_var: %c\n", my_uchar_var); 
+
+  printf("my_short_var: %hd\n", my_short_var); 
+  printf("my_ushort_var: %hu\n", my_ushort_var); 
+
+  printf("my_int_var: %d\n", my_int_var); 
+  printf("my_uint_var: %u\n", my_uint_var); 
+
+  printf("my_long int_var: %ld\n", my_long_int_var); 
+  printf("my_ulong_int_var: %lu\n", my_ulong_int_var); 
+
+  printf("my_long_long_int_var: %lld\n", my_long_long_int_var); 
+  printf("my_ulong_long_int_var: %llu\n", my_ulong_long_int_var); 
+
+  printf("my_float_var: %f\n", my_float_var); 
+
+  printf("my_double_var: %G\n", my_double_var); 
+  printf("my_long_double_var: %Lf\n", my_long_double_var); 
+}
+
 void print_sizeof_variables() {
   char my_char_var;
   unsigned char my_uchar_var;
@@ -17,7 +59,9 @@ void print_sizeof_variables() {
   unsigned long long int my_ulong_long_int_var;
 
   float my_float_var;
+
   double my_double_var;
+  long double my_long_double_var;
 
   printf("sizeof(my_char_var): %lu\n", sizeof(my_char_var)); 
   printf("sizeof(my_uchar_var): %lu\n", sizeof(my_uchar_var)); 
@@ -37,6 +81,7 @@ void print_sizeof_variables() {
   printf("sizeof(my_float_var): %lu\n", sizeof(my_float_var)); 
 
   printf("sizeof(my_double_var): %lu\n", sizeof(my_double_var)); 
+  printf("sizeof(my_long_double_var): %lu\n", sizeof(my_long_double_var)); 
 }
 
 void print_sizeof_data_types() {
@@ -58,6 +103,7 @@ void print_sizeof_data_types() {
   printf("sizeof(float): %lu\n", sizeof(float)); 
 
   printf("sizeof(double): %lu\n", sizeof(double)); 
+  printf("sizeof(double): %lu\n", sizeof(long double)); 
 }
 
 void print_hello() {
@@ -68,12 +114,13 @@ int main() {
   print_hello();
 
   printf("\n");
-
   print_sizeof_data_types();
 
   printf("\n");
-
   print_sizeof_variables();
+
+  printf("\n");
+  print_variables();
 
   return (0);
 }
