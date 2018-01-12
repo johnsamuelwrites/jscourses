@@ -18,10 +18,18 @@
  */
 
 
-#include "operators.h"
-#include "operators.h"
+#include <stdio.h>
+#include <string.h>
 
-int add (int a, int b) {
-  return a+b;
+union etudiant {
+  char nom[30];
+  char prenom[30];
+  char rue[30];
+};
+
+int main() {
+  union etudiant dupont;
+  strcpy(dupont.nom, "Dupont");
+
+  printf("%s\n", dupont.rue);
 }
-

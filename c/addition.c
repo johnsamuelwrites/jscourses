@@ -18,10 +18,22 @@
  */
 
 
-#include "operators.h"
-#include "operators.h"
+#include <stdio.h>
 
-int add (int a, int b) {
-  return a+b;
+int main() {
+  int a = 20;
+  int b = 20;
+  printf("a: %d\t b:%d\n", a, b);
+
+  printf("a > b: %d \n", a > b);
+  printf("a < b: %d \n", a < b);
+
+  if ( a < b ) {
+    printf("a est inférieur à b \n");
+  }
+  else if ( a > b ) {
+    printf("a est supérieur à b \n");
+  }
+
+  return(0);
 }
-

@@ -18,10 +18,17 @@
  */
 
 
-#include "operators.h"
-#include "operators.h"
+#include <stdio.h>
 
-int add (int a, int b) {
-  return a+b;
+int main() {
+  char c = 'a';
+  c='b';
+
+  char *cptr = &c;
+  printf("c= %c\n", c);
+  *cptr ='c';
+  printf("c= %c\n", c);
+  printf("c= %c\n", *cptr);
+  *cptr = 'A';
+  printf("c= %c\n", c);
 }
-

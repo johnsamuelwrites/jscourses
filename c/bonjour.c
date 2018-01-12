@@ -18,10 +18,17 @@
  */
 
 
-#include "operators.h"
-#include "operators.h"
+#include <stdio.h>
 
-int add (int a, int b) {
-  return a+b;
+int main() {
+  int year = 2017;
+  printf("char: %lu\n", sizeof(char));
+  printf("long long int: %lu\n", sizeof(long long int));
+  printf("float: %lu\n", sizeof(float));
+  printf("double: %lu\n", sizeof(double));
+  printf("long double: %lu\n", sizeof(long double));
+  
+  double pi = 3.14;
+  printf("pi= %g\n", pi);
+  return (0);
 }
-

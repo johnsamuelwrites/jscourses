@@ -18,10 +18,15 @@
  */
 
 
-#include "operators.h"
-#include "operators.h"
+#include <stdio.h>
 
-int add (int a, int b) {
-  return a+b;
+int main() {
+  char name[10];
+  printf("Votre nom: ");
+  scanf("%9s", name);
+  
+  printf("Bonjour %s\n", name);
+
+  return(0);
 }
 

@@ -18,10 +18,20 @@
  */
 
 
-#include "operators.h"
-#include "operators.h"
+#include <stdio.h>
+#include <stdlib.h>
 
-int add (int a, int b) {
-  return a+b;
-}
+int main(){
+  int *itab = (int *) malloc(10 * sizeof(int));
+  short *stab = (short *) malloc (10 * sizeof(short));
 
+  long int *litab = (long int *) malloc (10 * sizeof(long int));
+  long int *litab = (long int *) malloc (100);
+
+  printf("%d\n", itab[5]);
+  free(itab);
+
+  itab = (int *) calloc(10,  sizeof(int));
+  printf("%d\n", itab[5]);
+  free(itab);
+} 

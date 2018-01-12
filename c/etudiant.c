@@ -18,10 +18,36 @@
  */
 
 
-#include "operators.h"
-#include "operators.h"
+#include <stdio.h>
+#include <string.h>
 
-int add (int a, int b) {
-  return a+b;
+struct adresse {
+  int numero;
+  char rue[30];
+  char ville[30];
+};
+
+typedef short uint16;
+typedef int entier;
+
+typedef struct etudiant {
+  char nom[30];
+  char prenom[30];
+  struct adresse a;
+  uint16 notes;
+} etudiant;
+
+
+
+int main() {
+  etudiant dupont;
+  etudiant etudiants[135];
+
+  dupont.notes = 19;
+  strcpy(dupont.nom, "dupont");
+  strcpy(dupont.prenom, "Pierre");
+  strcpy(dupont.a.rue, "rue abc");
+  strcpy(dupont.a.ville, "Lyon");
+
+  printf("%s\n",dupont.a.ville );
 }
-

@@ -18,10 +18,11 @@
  */
 
 
-#include "operators.h"
-#include "operators.h"
+#include <stdio.h>
 
-int add (int a, int b) {
-  return a+b;
+int main(int argc, char **argv) {
+  if (argc == 2) {
+    printf("Hello %s", argv[1]);
+  }
+  return(0);
 }
-

@@ -18,10 +18,22 @@
  */
 
 
-#include "operators.h"
-#include "operators.h"
+#include <stdio.h>
+#include <string.h>
 
-int add (int a, int b) {
-  return a+b;
+int main() {
+  char message[20] = "Bonjour ";
+
+  printf("size en utilisant strlen: %lu\n", strnlen(message, 19));
+  printf("size en utilisant sizeof: %lu\n", sizeof(message));
+
+  char name [10];
+  strncpy(name, "Pierre", 9);
+  name[6] = '\0';
+  printf("Name: %s\n", name);
+
+  strncat(message, name, 19);  
+
+  printf("Message: %s\n", message);
+  return(0);
 }
-

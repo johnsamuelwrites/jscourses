@@ -18,10 +18,29 @@
  */
 
 
-#include "operators.h"
-#include "operators.h"
+#include <stdio.h>
 
-int add (int a, int b) {
-  return a+b;
+int main() {
+ 
+  enum status {ETUDIANT=1, STAGIAIRE, PROF};
+
+  enum status s = 30;
+
+
+  switch( s ) {
+     case STAGIAIRE:
+          printf("s: stagiare\n");
+          break;
+     case ETUDIANT:
+          printf("s: étudiant\n");
+          break;
+     case PROF:
+          printf("s: professeur\n");
+          break;
+     default: 
+          printf("ERREUR!!!!!!!!!");
+          break;
+  }
+
+  return(0);
 }
-

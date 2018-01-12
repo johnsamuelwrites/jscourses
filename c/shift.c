@@ -18,10 +18,21 @@
  */
 
 
-#include "operators.h"
-#include "operators.h"
+#include <stdio.h>
 
-int add (int a, int b) {
-  return a+b;
+int main() {
+  int a = 0x8;
+  printf("a >> 1: %x\n", a >> 1);
+  a = a >> 1;
+  printf("a >> 1: %x\n", a >> 1);
+  a = a >> 1;
+  printf("a >> 1: %x\n", a >> 1);
+  a = a >> 1;
+  printf("a >> 1: %x\n", a >> 1);
+  a = a >> 1;
+
+  a = 0x8;
+  printf("a >> 4: %x\n", a >> 4);
+ 
+  return(0);
 }
-

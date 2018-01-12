@@ -18,10 +18,23 @@
  */
 
 
-#include "operators.h"
-#include "operators.h"
+#include <sys/types.h>
+#include <sys/stat.h>
+#include <unistd.h>
+#include <fcntl.h>
+#include <stdio.h>
+#include <string.h>
+#include "name.h"
 
-int add (int a, int b) {
-  return a+b;
+int main() {
+   int fd;
+   fd = open("./message.txt", O_CREAT | O_WRONLY);
+
+   char content[1000] = "Bonjour";
+
+   int size = write(fd, content, strlen(content));
+
+   printf("La taille: %d", size);
+  
+   close(fd);
 }
-

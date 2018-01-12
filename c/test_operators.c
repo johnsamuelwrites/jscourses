@@ -19,9 +19,12 @@
 
 
 #include "operators.h"
-#include "operators.h"
+#include <stdio.h>
 
-int add (int a, int b) {
-  return a+b;
+int main() {
+  int num1 = 20, num2 = 40;
+  int sum = add (num1, num2);
+  printf ("La somme: %d\n", sum);
+
+  return (0);
 }
-

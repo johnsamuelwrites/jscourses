@@ -18,10 +18,25 @@
  */
 
 
-#include "operators.h"
-#include "operators.h"
+#include <stdio.h>
 
-int add (int a, int b) {
-  return a+b;
+int main() {
+  int prix[] = {11, 13, 17, 18};
+  float rayon[] = {2.14, 5.16};
+  char message[] = "Hi 4ETI!!!";
+
+  int i = 0;
+  for (i = 0; i < 4; i ++ ) {
+    printf("%d\n", prix[i]);
+  }
+
+  for (i = 0; i < 2; i ++ ) {
+    printf("%f\n", rayon[i]);
+  }
+
+  for (i = 0; i < 3; i ++ ) {
+    printf("%c\n", message[i]);
+  }
+  
+  printf("%s\n", message);
 }
-

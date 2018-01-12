@@ -18,10 +18,39 @@
  */
 
 
-#include "operators.h"
-#include "operators.h"
+#include <stdio.h>
 
-int add (int a, int b) {
-  return a+b;
+struct color1 {
+  unsigned char red;
+  unsigned char green;
+  unsigned char blue;
+  unsigned int count;
+};
+
+struct color2 {
+  unsigned char red;
+  unsigned int count;
+  unsigned char green;
+  unsigned char blue;
+};
+
+#pragma pack(push)
+#pragma pack(1)
+struct color3 {
+  unsigned char red;
+  unsigned int count;
+  unsigned char green;
+  unsigned char blue;
+};
+#pragma pack(pop)
+
+int main() {
+  printf("size- color1: %lu, color2: %lu\n", 
+    sizeof(struct color1),
+    sizeof(struct color2));
+
+  printf("size- color3: %lu\n", 
+    sizeof(struct color3));
+
+  return (0);
 }
-

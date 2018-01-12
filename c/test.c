@@ -18,10 +18,15 @@
  */
 
 
-#include "operators.h"
-#include "operators.h"
+#include <stdio.h>
 
-int add (int a, int b) {
-  return a+b;
+void print(char *message, int size) {
+  int i = 0;
+  for (i=0; i< size; i++) {
+    printf("%c", message[i]);
+  } 
 }
 
+int main() {
+  print("hi", 2);
+}

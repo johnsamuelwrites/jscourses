@@ -18,10 +18,12 @@
  */
 
 
-#include "operators.h"
-#include "operators.h"
-
-int add (int a, int b) {
-  return a+b;
-}
+union color {
+  unsigned char valeur[3];
+  struct {
+    unsigned char rouge;
+    unsigned char vert;
+    unsigned char bleu;
+  };
+};
 

@@ -18,10 +18,18 @@
  */
 
 
-#include "operators.h"
-#include "operators.h"
+#include <stdio.h>
 
-int add (int a, int b) {
-  return a+b;
+int main() {
+  float num1, num2;
+  printf("Tapez 2 numéros: ");
+  scanf("%f %f", &num1, &num2);
+
+  printf("Num 1: %f\n", num1);
+
+  printf("Num 2: %f\n", num2);
+
+  printf("La somme: %f\n", num1 + num2);
+
+  return (0);
 }
-

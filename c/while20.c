@@ -18,10 +18,44 @@
  */
 
 
-#include "operators.h"
-#include "operators.h"
+#include <stdio.h>
 
-int add (int a, int b) {
-  return a+b;
+int main() {
+  int count = 0;
+ 
+/*  while (count <= 20) {
+    printf("%d\n", count);
+    count ++;
+  }
+
+  printf("============\n");
+  count = 20;
+  while (count >= 0) {
+    printf("%d\n", count);
+    count --;
+  }
+
+  int a = -1;
+
+
+  do {
+    a++;
+    if(a%3 != 0) {
+      continue;
+    }
+    printf("%d\n", a);
+  }
+  while (a <= 20); */
+
+  int a = -1;
+  while (a < 20) {
+    a++; 
+    if(a%3 == 0) {
+    printf("%d\n", a);
+    }
+    
+    //printf("%d\n", a);
+  }
+
+  return 0;
 }
-

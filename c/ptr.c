@@ -18,10 +18,16 @@
  */
 
 
-#include "operators.h"
-#include "operators.h"
+#include <stdio.h>
 
-int add (int a, int b) {
-  return a+b;
+int main() {
+  char c = 'a';
+  char *cptr = &c;
+  int i;
+  float f;
+
+  void *vptr;
+  vptr = &i;
+  vptr = &c;
+  vptr = &f;
 }
-

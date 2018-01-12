@@ -18,10 +18,21 @@
  */
 
 
-#include "operators.h"
-#include "operators.h"
+#include <stdio.h>
 
-int add (int a, int b) {
-  return a+b;
+int main() {
+ 
+  enum status {ETUDIANT=1, STAGIAIRE};
+
+  enum status s = STAGIAIRE;
+
+
+  if ( s == STAGIAIRE) {
+     printf("s: stagiare");
+  }
+  else {
+     printf("s: étudiant");
+  }
+
+  return(0);
 }
-

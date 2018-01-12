@@ -18,10 +18,17 @@
  */
 
 
-#include "operators.h"
-#include "operators.h"
+#include <stdio.h>
 
-int add (int a, int b) {
-  return a+b;
+int main() {
+ 
+  int count = 10;
+  
+  do {
+     printf("count %d\n", count);
+     count = count + 1;
+  }
+  while(count < 10);
+
+  return(0);
 }
-

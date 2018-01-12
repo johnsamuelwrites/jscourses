@@ -18,10 +18,21 @@
  */
 
 
-#include "operators.h"
-#include "operators.h"
+#include <stdio.h>
 
-int add (int a, int b) {
-  return a+b;
+int main() {
+   int table[20];
+
+   int i = 0;
+   for (i =0 ; i <20 ; i++) {
+      table[i] = i * 2;
+   }
+
+
+   for (i =0 ; i <20 ; i++) {
+     printf("%d\n", table[i]);
+   }
+   
+
+   return(0);
 }
-

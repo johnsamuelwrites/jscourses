@@ -18,10 +18,20 @@
  */
 
 
-#include "operators.h"
-#include "operators.h"
 
-int add (int a, int b) {
-  return a+b;
+#include <stdio.h>
+
+int main() {
+  int a = 0b01000100;
+  int b = 0b00010000;
+  int c = 0b01000000;
+  int d = 0b11000100;
+  printf("a: %x\n", a);
+  printf("~a: %x\n", ~a);
+  printf("a & 0x4: %x\n", a&0x4);
+  printf("a & b: %x\n", a&b);
+  printf("a & c, c: %x %x\n", a&c, c);
+  printf("a & d, d: %x %x\n", a&d, d);
+ 
+  return(0);
 }
-

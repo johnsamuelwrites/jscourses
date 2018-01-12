@@ -18,10 +18,21 @@
  */
 
 
-#include "operators.h"
-#include "operators.h"
+#include <stdio.h>
 
-int add (int a, int b) {
-  return a+b;
+int main() {
+
+  int a = 0;
+  printf("Start\n");
+  do {
+    printf("%d\n", a);
+    a= a + 1;
+    if ( a == 3 ) {
+      continue;
+    }
+    printf("Hi %d\n", a);
+  } while (a <= 5);
+ 
+  printf("Stop\n");
+  return(0);
 }
-

@@ -18,10 +18,18 @@
  */
 
 
-#include "operators.h"
-#include "operators.h"
+#include <stdio.h>
 
-int add (int a, int b) {
-  return a+b;
+int main() {
+  int i = 0x20;
+  
+  int *iptr = &i;
+
+  *iptr = 1;
+
+  *iptr = *iptr + 1; //=i+1
+
+  i = *iptr + 3;
+
+  printf("%x\n", *iptr);
 }
-

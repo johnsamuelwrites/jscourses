@@ -18,10 +18,12 @@
  */
 
 
-#include "operators.h"
-#include "operators.h"
+#include <stdio.h>
+#include <stdlib.h>
 
-int add (int a, int b) {
-  return a+b;
+typedef long long int integer;
+
+int main() {
+
+  integer a = 5;
 }
-

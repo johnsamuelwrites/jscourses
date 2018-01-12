@@ -18,10 +18,16 @@
  */
 
 
-#include "operators.h"
-#include "operators.h"
 
-int add (int a, int b) {
-  return a+b;
+#ifndef PI
+#define PI 3.14
+#endif
+
+#define square(val) val * val
+
+int main() {
+  float rayon = 2.0;
+  PI  = 3.145;
+
+  float area = PI * square(rayon);
 }
-

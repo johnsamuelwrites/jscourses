@@ -18,10 +18,16 @@
  */
 
 
-#include "operators.h"
-#include "operators.h"
+#include <stdio.h>
 
-int add (int a, int b) {
-  return a+b;
+int main() {
+ 
+  int count = 0;
+ 
+  for (count = 0; count < 10; ) {
+     printf("count %d\n", count);
+     count = count + 1;
+  }
+
+  return(0);
 }
-

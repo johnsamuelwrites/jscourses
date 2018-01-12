@@ -18,10 +18,12 @@
  */
 
 
-#include "operators.h"
-#include "operators.h"
+#include "name.h"
+#include <stdio.h>
 
-int add (int a, int b) {
-  return a+b;
+void myprint( char * name, int size) {
+  int i = 0;
+  for (i =0; i <size; i++) {
+    printf("%c", name[i]);
+  }
 }
-
