@@ -1,5 +1,8 @@
 #ifndef __SIZE_H__
 #define __SIZE_H__
+#include "size.h"
+
+#define PI 3.14
 
 #include <stdio.h>
 
