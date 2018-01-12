@@ -1,7 +1,7 @@
 # jscourses
 Courses by John Samuel
 
-# [c/README.md](C)
+# [C](c/README.md)
 
 C programming examples
 
