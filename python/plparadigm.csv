@@ -1,0 +1,101 @@
+languageLabel,paradigmLabel,year
+Plankalkül,procedural programming,1948
+assembly language,non-structured programming,1949
+Short Code,procedural programming,1949
+Short Code,procedural programming,1950
+Speedcoding,procedural programming,1953
+Speedcoding,structured programming,1953
+Fortran,array programming,1954
+Fortran,generic programming,1954
+Fortran,imperative programming,1954
+MATH-MATIC,imperative programming,1954
+Fortran,object-oriented programming,1954
+Fortran,procedural programming,1954
+Fortran,structured programming,1954
+FLOW-MATIC,imperative programming,1955
+FLOW-MATIC,procedural programming,1955
+Information Processing Language,assembly language,1956
+Information Processing Language,procedural programming,1956
+Fortran,array programming,1957
+Fortran,generic programming,1957
+Fortran,imperative programming,1957
+Fortran,object-oriented programming,1957
+Fortran,procedural programming,1957
+COMTRAN,procedural programming,1957
+Fortran,structured programming,1957
+Lisp,functional programming,1958
+ALGOL,imperative programming,1958
+Lisp,metaprogramming,1958
+Lisp,multi-paradigm programming,1958
+Lisp,procedural programming,1958
+ALGOL,procedural programming,1958
+ALGOL 58,procedural programming,1958
+Lisp,reflective programming,1958
+ALGOL,structured programming,1958
+Lisp,functional programming,1959
+COBOL,imperative programming,1959
+MAD,imperative programming,1959
+Lisp,metaprogramming,1959
+Lisp,multi-paradigm programming,1959
+COBOL,object-oriented programming,1959
+Lisp,procedural programming,1959
+COBOL,procedural programming,1959
+MAD,procedural programming,1959
+FACT,procedural programming,1959
+JOVIAL,procedural programming,1959
+Lisp,reflective programming,1959
+COBOL,imperative programming,1960
+COBOL,imperative programming,1960
+COBOL,object-oriented programming,1960
+COBOL,object-oriented programming,1960
+COBOL,procedural programming,1960
+COBOL,procedural programming,1960
+ALGOL 60,procedural programming,1960
+APL,array programming,1962
+APL,functional programming,1962
+SNOBOL,imperative programming,1962
+APL,modular programming,1962
+APL,multi-paradigm programming,1962
+Simula,object-oriented programming,1962
+APL,structured programming,1962
+CPL,multi-paradigm programming,1963
+CPL,procedural programming,1963
+BASIC,imperative programming,1964
+P′′,imperative programming,1964
+Speakeasy,imperative programming,1964
+BASIC,non-structured programming,1964
+PL/I,procedural programming,1964
+Report Program Generator,procedural programming,1964
+APL,array programming,1966
+ISWIM,functional programming,1966
+APL,functional programming,1966
+ISWIM,imperative programming,1966
+Massachusetts General Hospital Utility Multi-Programming System,imperative programming,1966
+APL,modular programming,1966
+APL,multi-paradigm programming,1966
+BCPL,multi-paradigm programming,1966
+Coral 66,procedural programming,1966
+Euler,procedural programming,1966
+BCPL,procedural programming,1966
+ALGOL W,procedural programming,1966
+Massachusetts General Hospital Utility Multi-Programming System,procedural programming,1966
+APL,structured programming,1966
+Hop,functional programming,1967
+Massachusetts General Hospital Utility Multi-Programming System,imperative programming,1967
+BCPL,multi-paradigm programming,1967
+Hop,multi-paradigm programming,1967
+Simula,object-oriented programming,1967
+BCPL,procedural programming,1967
+Massachusetts General Hospital Utility Multi-Programming System,procedural programming,1967
+Refal,functional programming,1968
+Refal,pattern matching,1968
+ALGOL 68,procedural programming,1968
+DIBOL,procedural programming,1968
+Forth,procedural programming,1968
+TUTOR,imperative programming,1969
+B,procedural programming,1969
+Pascal,imperative programming,1970
+PLEX,procedural programming,1970
+BLISS,structured programming,1970
+A♯,functional programming,1971
+KRL,knowledge representation and reasoning,1971
