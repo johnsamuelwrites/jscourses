@@ -1,4 +1,4 @@
-# Examples related to C programming
+# Examples related to C programming (Algorithm)
 
 Year: 2018-2019
 
@@ -13,5 +13,6 @@ Year: 2018-2019
  * Pointers
  * File operations (open, read, write, close)
  * Input and Output
+ * Manipulation of strings (sscanf, sprintf, atoi,...)
 
-Refer [Source code (*.h and *.c)](./)
+Refer [Source code (*.h and *.c)](./groupe1/)
