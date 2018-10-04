@@ -1,0 +1,3 @@
+operators: operators.c mainoperators.c
+	gcc -o operators operators.c mainoperators.c
+

@@ -1,0 +1,13 @@
+CC ?= gcc
+.SUFFIXES: .c .o
+
+EXECUTABLE = operators
+OBJS= operators.o mainoperators.o
+
+all: $(EXECUTABLE)
+
+operators: $(OBJS)
+	$(CC) -o $(EXECUTABLE) $(OBJS)
+
+.c.o:
+	$(CC) -c $*.c
