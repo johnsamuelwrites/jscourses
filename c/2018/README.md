@@ -1,7 +1,9 @@
-# Examples related to C programming
+# C programming 2018
 
-Year: 2018-2019
+# Year
+2018-2019
 
+# Topics
  * Preprocessing
  * Data types
  * Enumerated Data types
@@ -14,4 +16,5 @@ Year: 2018-2019
  * File operations (open, read, write, close)
  * Input and Output
 
+# Source code
 Refer [Source code (*.h and *.c)](./)

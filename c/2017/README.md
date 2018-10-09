@@ -1,4 +1,6 @@
-# Examples related to C programming
+# C programming 2017
+
+# Topics
 
  * Preprocessing
  * Data types
@@ -11,5 +13,7 @@
  * Pointers
  * File operations (open, read, write, close)
  * Input and Output
+
+# Source code
 
 Refer [Source code (*.h and *.c)](./)

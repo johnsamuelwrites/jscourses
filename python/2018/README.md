@@ -1,4 +1,4 @@
-# Examples related to Python programming
+# Data Mining 2018
 
  * Python fundamentals 
  * Reading JSON, CSV files

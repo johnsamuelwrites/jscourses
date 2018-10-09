@@ -15,4 +15,13 @@ Year: 2018-2019
  * Input and Output
  * Manipulation of strings (sscanf, sprintf, atoi,...)
 
+These course has two groups: Group 1 and Group 2.
+
+# Group 1
+
 Refer [Source code (*.h and *.c)](./groupe1/)
+
+
+# Group 2
+
+Refer [Source code (*.h and *.c)](./groupe2/)
