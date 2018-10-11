@@ -8,21 +8,22 @@
 Refer [Source code (*.ipynb)](./)
 
 # Libraries
- * Jupyter
- * Numpy
- * Scipy
- * NLTK
- * Matplotlib
- * Pandas
- * Bokeh
- * Seaborn
- * Tensorflow
- * Keras
- * Scikit-learn
- * Scrapy
- * Gensim
- * Statsmodels
- * (NetworkX) [https://github.com/networkx/networkx]
- * Spark
- * Hive
- * (SPARQLWrapper)[https://github.com/rdflib/sparqlwrapper]
+ * [Jupyter](https://github.com/jupyter/jupyter)
+ * [Numpy](https://github.com/numpy/numpy)
+ * [Scipy](https://github.com/scipy/scipy)
+ * [NLTK](https://github.com/nltk/nltk)
+ * [Matplotlib](https://github.com/matplotlib/matplotlib)
+ * [Pandas](https://github.com/pandas-dev/pandas)
+ * [Bokeh](https://github.com/bokeh/bokeh)
+ * [Seaborn](https://github.com/mwaskom/seaborn)
+ * [Tensorflow](https://github.com/tensorflow/tensorflow)
+ * [Keras](https://github.com/keras-team/keras)
+ * [Scikit-learn](https://github.com/scikit-learn/scikit-learn)
+ * [Scrapy](https://github.com/scrapy/scrapy)
+ * [Gensim](https://github.com/RaRe-Technologies/gensim)
+ * [Statsmodels](https://github.com/statsmodels/statsmodels)
+ * [NetworkX](https://github.com/networkx/networkx)
+ * [Spark](https://github.com/apache/spark)
+ * [Hive](https://github.com/apache/hive)
+ * [Kafka](https://github.com/apache/kafka)
+ * [SPARQLWrapper](https://github.com/rdflib/sparqlwrapper)
