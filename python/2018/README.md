@@ -5,7 +5,14 @@
  * Using *pandas* library for data analysis
  * Using *matplotlib* library for data visualization
 
-Refer [Source code (*.ipynb)](./)
+[More Details](./DataMining/README.md)
+
+# Big Data 2018
+
+ * Using *pandas* library for data analysis
+ * Using *matplotlib* library for data visualization
+
+[More Details](./BigData/README.md)
 
 # Libraries
  * [Jupyter](https://github.com/jupyter/jupyter)

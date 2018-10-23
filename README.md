@@ -12,3 +12,10 @@ Python programming examples (data analysis)
 
 # Author
 * John Samuel
+
+## Archives and Releases
+* [Zenodo](https://doi.org/10.5281/zenodo.1291334)
+* [Release Notes](RELEASE.md)
+
+## Licence
+All code are released under GPLv3+ licence. The associated documentation and other content are released under [CC-BY-SA](http://creativecommons.org/licenses/by-sa/4.0/).
