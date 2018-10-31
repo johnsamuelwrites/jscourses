@@ -34,3 +34,4 @@
  * [Hive](https://github.com/apache/hive)
  * [Kafka](https://github.com/apache/kafka)
  * [SPARQLWrapper](https://github.com/rdflib/sparqlwrapper)
+ * [HoloViews]
