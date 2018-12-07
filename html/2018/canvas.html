@@ -11,7 +11,10 @@
     </canvas>
     <script type="text/javascript">
       var id = document.getElementById("moncanvas");
+      id.setAttribute("width", 900);
+      id.setAttribute("height", 900);
       context = id.getContext("2d");
+      id.style.backgroundColor="green";
     </script>
   </body>
 </html>

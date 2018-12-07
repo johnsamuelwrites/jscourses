@@ -10,6 +10,10 @@ C programming examples
 
 Python programming examples (data analysis)
 
+# [HTML5 Canvas](html/README.md)
+
+Basic HTML5 Canvas examples
+
 # Author
 * John Samuel
 
