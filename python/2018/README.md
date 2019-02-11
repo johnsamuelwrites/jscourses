@@ -15,14 +15,14 @@
 [More Details](./BigData/README.md)
 
 # Libraries
+## Programming
  * [Jupyter](https://github.com/jupyter/jupyter)
+
+## Analysis
  * [Numpy](https://github.com/numpy/numpy)
  * [Scipy](https://github.com/scipy/scipy)
  * [NLTK](https://github.com/nltk/nltk)
- * [Matplotlib](https://github.com/matplotlib/matplotlib)
  * [Pandas](https://github.com/pandas-dev/pandas)
- * [Bokeh](https://github.com/bokeh/bokeh)
- * [Seaborn](https://github.com/mwaskom/seaborn)
  * [Tensorflow](https://github.com/tensorflow/tensorflow)
  * [Keras](https://github.com/keras-team/keras)
  * [Scikit-learn](https://github.com/scikit-learn/scikit-learn)
@@ -34,4 +34,9 @@
  * [Hive](https://github.com/apache/hive)
  * [Kafka](https://github.com/apache/kafka)
  * [SPARQLWrapper](https://github.com/rdflib/sparqlwrapper)
- * [HoloViews]
+
+## Visualisation
+ * [HoloViews](https://github.com/pyviz/holoviews)
+ * [Bokeh](https://github.com/bokeh/bokeh)
+ * [Seaborn](https://github.com/mwaskom/seaborn)
+ * [Matplotlib](https://github.com/matplotlib/matplotlib)
