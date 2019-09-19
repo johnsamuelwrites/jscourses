@@ -1,5 +1,6 @@
 /*
- affiche Bonjour et la valeur d'une variable
+ * Affiche Bonjour et les valeurs de deux variables
+ * en utilisant l'espace et le caractère de tabulation
  */
 
 #include <stdio.h>

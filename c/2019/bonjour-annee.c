@@ -1,5 +1,5 @@
 /*
- affiche Bonjour et la valeur d'une variable
+ * Affiche Bonjour et les valeurs de deux variables
  */
 
 #include <stdio.h>

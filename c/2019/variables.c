@@ -1,8 +1,7 @@
 /*
- affiche Bonjour
+ * Affiche les valeurs des différents types de données
  */
 
-//affiche Bonjour
 #include <stdio.h>
 
 int main() {

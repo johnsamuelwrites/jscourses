@@ -1,8 +1,9 @@
 /*
- affiche Bonjour
+ * Affiche Bonjour
  */
 
-//affiche Bonjour
+// commentaire
+
 #include <stdio.h>
 
 int main() {
