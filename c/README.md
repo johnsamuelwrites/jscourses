@@ -3,6 +3,10 @@
 
 Notes and examples of C Programming from 2019
 
+## [C and Algorithm 2019](algorithmes/2019/README.md)
+
+Notes and examples of C Programming (Algorithm) from 2019
+
 # 2018
 ## [C 2018](2018/README.md)
 
