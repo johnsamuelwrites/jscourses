@@ -17,11 +17,5 @@ Year: 2019-2020
 
 These course has two groups: Group 1 and Group 2.
 
-# Group 1
+Refer [Source code (*.h and *.c)](./)
 
-Refer [Source code (*.h and *.c)](./groupe1/)
-
-
-# Group 2
-
-Refer [Source code (*.h and *.c)](./groupe2/)
