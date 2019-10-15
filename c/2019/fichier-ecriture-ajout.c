@@ -1,5 +1,5 @@
 /*
- * Écrire dans un fichier
+ * Écrire dans un fichier en mode ajout
  */
 
 #include <sys/types.h>
@@ -13,7 +13,7 @@ int main() {
   int fd, size;
   char message[1000] = "Bonjour";
 
-  fd = open("./message.txt", O_CREAT|O_WRONLY, S_IRUSR|S_IWUSR);
+  fd = open("./message.txt", O_CREAT|O_WRONLY|O_APPEND, S_IRUSR|S_IWUSR);
   size = write(fd, message, strlen(message)); 
 
   printf("%d caractères\n", size);
