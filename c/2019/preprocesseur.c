@@ -2,10 +2,16 @@
  * Preprocesseur
  */
 #include <stdio.h>
+#include "preprocesseur.h"
+#include "preprocesseur.h" //2eme fois
 
-#define PI 3.14
+int carre(int valeur) {
+  return valeur * valeur;
+}
 
 int main() {
-  printf("Bonjour de %f\n", PI);
+  printf("Bonjour:  %d\n", num);
+  printf("Bonjour:  %d\n", square(num));
+  printf("Bonjour:  %d\n", carre(num));
   return(0);
 }
