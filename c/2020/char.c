@@ -1,4 +1,4 @@
-// affiche bonjour et la valeur
+// affiche bonjour et la valeur d'un caractère
 
 /* affiche la valeur
  * auteur: John Samuel

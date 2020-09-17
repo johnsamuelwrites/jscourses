@@ -1,18 +1,19 @@
-// une chaîne de caractères
+// tableau d'entiers (int)
 
 #include <stdio.h>
 
 int main() {
-  char message[20] = "Bonjour\n";
+  int itableau[20];
 
   int compteur;
   for (compteur = 0; compteur  < 20; compteur++) {
-    printf("%c\n", message[compteur]);
+    itableau[compteur] = compteur * 2;
   }
 
   for (compteur = 0; compteur  < 20; compteur++) {
-    printf("%d\n", message[compteur]);
+    printf("%d\n", itableau[compteur]);
   }
+
 
   return (0);
 }

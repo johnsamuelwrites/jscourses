@@ -1,18 +1,19 @@
-// une chaîne de caractères
+// tableau à deux indices (float)
 
 #include <stdio.h>
 
 int main() {
-  char message[20] = "Bonjour\n";
+  float ftableau[20];
 
   int compteur;
   for (compteur = 0; compteur  < 20; compteur++) {
-    printf("%c\n", message[compteur]);
+    ftableau[compteur] = compteur * 3.14;
   }
 
   for (compteur = 0; compteur  < 20; compteur++) {
-    printf("%d\n", message[compteur]);
+    printf("%f\n", ftableau[compteur]);
   }
+
 
   return (0);
 }

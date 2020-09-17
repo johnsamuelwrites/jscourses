@@ -1,6 +1,4 @@
-// affiche bonjour
-//
-//
+// sizeof: la taille de différents types de données
 
 #include <stdio.h>
 
