@@ -1,5 +1,5 @@
 /*
- * des variables
+ * L'utilisation de sizeof
  */
 
 #include <stdio.h>

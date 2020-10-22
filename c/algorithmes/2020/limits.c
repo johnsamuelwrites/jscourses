@@ -1,5 +1,5 @@
 /*
- * des variables
+ * afficher les limites des différents types de variables 
  */
 
 #include <stdio.h>

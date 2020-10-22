@@ -1,5 +1,6 @@
 /*
- * des variables
+ * L'utilisation des variables char, unsigned char, 
+ * long long int
  */
 
 #include <stdio.h>

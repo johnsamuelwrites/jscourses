@@ -1,5 +1,5 @@
 /*
- * des variables
+ * Les notations 
  */
 
 #include <stdio.h>

@@ -1,3 +1,7 @@
+/*
+ * L'utilisation d'une variable de type long double
+ */
+
 #include <stdio.h>
 
 int main() {

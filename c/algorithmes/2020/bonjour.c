@@ -1,3 +1,7 @@
+/*
+ * affichage d'un message
+ */
+
 #include <stdio.h>
 
 int main() {

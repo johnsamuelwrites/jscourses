@@ -1,5 +1,5 @@
 /*
- * des variables
+ * L'utilisation de switch 
  */
 
 #include <stdio.h>

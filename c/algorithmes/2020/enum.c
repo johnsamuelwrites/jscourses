@@ -1,5 +1,5 @@
 /*
- * des variables
+ * L'utilisation des énumerations
  */
 
 #include <stdio.h>

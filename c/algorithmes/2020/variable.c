@@ -1,5 +1,5 @@
 /*
- * des variables
+ * L'utilisation des variables et leur affichage
  */
 
 #include <stdio.h>
