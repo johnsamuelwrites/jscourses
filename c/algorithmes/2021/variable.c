@@ -1,8 +1,7 @@
-// affiche "bonjour"
-//
 #include <stdio.h>
 
-/* fonction main
+/* 
+ * utilisation de variables de différents types de données 
  */
 int main() {
 	int annee = 2021;

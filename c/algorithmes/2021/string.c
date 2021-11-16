@@ -1,7 +1,7 @@
-//
 #include <stdio.h>
 
-/* fonction main
+/* 
+ * l'utilisation de tableaux à deux dimensions
  */
 int main() {
 	char message[2][11] = {

@@ -1,8 +1,7 @@
-// affiche "bonjour"
-//
 #include <stdio.h>
 
-/* fonction main
+/* 
+ * utilisation des pointeurs et des opérateurs associés 
  */
 int main() {
         char c = 'a';

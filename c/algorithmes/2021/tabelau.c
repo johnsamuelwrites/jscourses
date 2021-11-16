@@ -1,7 +1,7 @@
-//
 #include <stdio.h>
 
-/* fonction main
+/* 
+ * l'utilisation de tableaux à deux dimensions.
  */
 int main() {
 	int salles[2][3] = {

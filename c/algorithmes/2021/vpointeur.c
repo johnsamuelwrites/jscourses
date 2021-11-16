@@ -1,8 +1,7 @@
-// affiche "bonjour"
-//
 #include <stdio.h>
 
-/* fonction main
+/*
+ * pointeurs génériques (void*)
  */
 int main() {
         char c = 'a';
