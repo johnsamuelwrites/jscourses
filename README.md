@@ -14,6 +14,18 @@ Python programming examples (data analysis)
 
 Basic HTML5 Canvas examples
 
+# Links to Teaching Courses
+Repository | Topic
+-|-
+[ProgC](https://github.com/johnsamuelwrites/ProgC) | C Programming
+[AlgoC](https://github.com/johnsamuelwrites/AlgoC) | Algorithms and C Programming
+[DataMining](https://github.com/johnsamuelwrites/DataMining) | Data Mining
+[MachineLearning](https://github.com/johnsamuelwrites/MachineLearning) | Machine Learning
+[IA-DeepLearning](https://github.com/johnsamuelwrites/IA-DeepLearning) | Artificial Intelligence and DeepLearning
+[TDM](https://github.com/johnsamuelwrites/TDM) | Massive data processing 
+[jscourses](https://github.com/johnsamuelwrites/jscourses) | Course notes and live-programming
+[AISchool](https://github.com/johnsamuelwrites/AISchool) | Artificial intelligence exercises for school students
+
 # Author
 * John Samuel
 
