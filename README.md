@@ -15,6 +15,7 @@ Python programming examples (data analysis)
 Basic HTML5 Canvas examples
 
 # Links to Teaching Courses
+
 Repository | Topic
 -|-
 [ProgC](https://github.com/johnsamuelwrites/ProgC) | C Programming
