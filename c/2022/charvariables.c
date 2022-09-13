@@ -12,9 +12,9 @@ int main() {
   printf("Bonjour le monde %c\n", ch);
 
   ch='t'; // ASCII
-  printf("Bonjour le monde %c %i\n", ch, ch);
+  printf("Bonjour le monde %c %hhu\n", ch, ch);
 
   ch='é'; // Warning
-  printf("Bonjour le monde %c %i\n", ch, ch);
+  printf("Bonjour le monde %c %hhu\n", ch, ch);
   return 0;
 }
