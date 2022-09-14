@@ -2,11 +2,12 @@
  * Taille des différents types
  */
 
-#include <stdio.h> // header
+#include <stdio.h>  // header
 #include <limits.h> // header
 
-int main() {
-  char ch='a';
+int main()
+{
+  char ch = 'a';
   printf("sizeof(char) %lu\n", sizeof(char));
   printf("sizeof(ch) %lu\n", sizeof(ch));
 

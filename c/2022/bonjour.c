@@ -1,10 +1,11 @@
 /*
- * affiche un message sur l'écran 
+ * affiche un message sur l'écran
  */
 
 #include <stdio.h> // header
 
-int main() {
+int main()
+{
   printf("Bonjour le monde\n");
   return 0;
 }
