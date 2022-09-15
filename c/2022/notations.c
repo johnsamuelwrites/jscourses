@@ -13,12 +13,11 @@ int main()
   printf("a (octal): %o\n", a);
   printf("a (hexadecimal): %x\n", a);
 
-  a = 0234734; //Octal // notation octale
+  a = 0234734; // Octal // notation octale
   printf("a (decimal): %d\n", a);
   printf("a (octal): %o\n", a);
   printf("a (hexadecimal): %x\n", a);
 
-  
   a = 0x234734; // notation hexadécimale
   printf("a (decimal): %d\n", a);
   printf("a (octal): %o\n", a);
