@@ -6,7 +6,8 @@
 
 int annee = 2017;
 
-void affiche_annee() {
+void affiche_annee()
+{
   printf("Bloc affiche_annee: Bonjour le monde, année: %d\n", annee);
 }
 
@@ -22,4 +23,3 @@ int main()
   affiche_annee();
   return 0;
 }
-

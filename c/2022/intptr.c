@@ -1,5 +1,5 @@
 /*
- * Les opérations sur les pointeurs 
+ * Les opérations sur les pointeurs
  */
 
 #include <stdio.h> // header

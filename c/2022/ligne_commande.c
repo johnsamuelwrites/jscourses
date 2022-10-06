@@ -4,11 +4,13 @@
 
 #include <stdio.h>
 
-int main(int argc, char **argv) {
-   printf("Compte: %d\n", argc);
- 
-   for (int compteur = 0; compteur < argc; compteur++) {
-     printf("argv[%d] %s\n", compteur, argv[compteur]);
-   }
-   return 0;
+int main(int argc, char **argv)
+{
+  printf("Compte: %d\n", argc);
+
+  for (int compteur = 0; compteur < argc; compteur++)
+  {
+    printf("argv[%d] %s\n", compteur, argv[compteur]);
+  }
+  return 0;
 }

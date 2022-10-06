@@ -14,9 +14,10 @@ int main()
   int fd;
   char message[] = "Bonjour";
 
-  fd = open("message.txt", O_CREAT|O_WRONLY, S_IRUSR|S_IWUSR);
- 
-  if (fd <0) {
+  fd = open("message.txt", O_CREAT | O_WRONLY, S_IRUSR | S_IWUSR);
+
+  if (fd < 0)
+  {
     perror("Open message.txt");
     exit(1);
   }
@@ -26,5 +27,5 @@ int main()
   printf("Wrote %d in the file message.txt\n", size);
 
   close(fd);
-  return(0);
+  return (0);
 }

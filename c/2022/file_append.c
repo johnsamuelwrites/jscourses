@@ -14,9 +14,10 @@ int main()
   int fd;
   char message[100];
 
-  fd = open("message.txt", O_CREAT|O_WRONLY|O_APPEND, S_IRUSR|S_IWUSR);
- 
-  if (fd <0) {
+  fd = open("message.txt", O_CREAT | O_WRONLY | O_APPEND, S_IRUSR | S_IWUSR);
+
+  if (fd < 0)
+  {
     perror("Open message.txt");
     exit(1);
   }
@@ -28,5 +29,5 @@ int main()
   printf("Append %d characters in the file message.txt\n", size);
 
   close(fd);
-  return(0);
+  return (0);
 }

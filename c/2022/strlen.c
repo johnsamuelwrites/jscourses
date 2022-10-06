@@ -4,7 +4,8 @@
 #include <stdio.h>
 #include <string.h>
 
-int main() {
+int main()
+{
     char nom[50];
     printf("Votre nom: ");
     fgets(nom, sizeof(nom), stdin);
@@ -12,12 +13,11 @@ int main() {
     printf("sizeof (nom): %lu\n", sizeof(nom));
     printf("Nom: %s\n", nom);
 
-    nom[strlen(nom)-1] = '\0';
+    nom[strlen(nom) - 1] = '\0';
     printf("Taille: %lu\n", strnlen(nom, sizeof(nom)));
     printf("sizeof (nom): %lu\n", sizeof(nom));
 
     printf("Nom: %s\n", nom);
 
-    return(0);
-
+    return (0);
 }
