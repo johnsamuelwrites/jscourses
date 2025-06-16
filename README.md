@@ -32,6 +32,7 @@ Repository | Topic
 
 ## Archives and Releases
 - [Zenodo](https://doi.org/10.5281/zenodo.1291334)
+- [Software Heritage](https://archive.softwareheritage.org/browse/origin/directory/?origin_url=https://github.com/johnsamuelwrites/jscourses)
 - [Release Notes](RELEASE.md)
 
 ## Licence
