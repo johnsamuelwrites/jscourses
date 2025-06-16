@@ -1,3 +1,12 @@
+# v1.0
+===============================================================================
+- Add example code from classes 1-5
+- Update gitignore
+- Add examples discussed in class
+- Add SWHID link
+- Add example codes from Classes 1-4 (2023-2024)
+- Add links and README
+
 # v0.5
 ===============================================================================
 - Add example codes from different classes
