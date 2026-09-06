@@ -19,13 +19,7 @@ Course notes and live coding examples, organized by year.
 
 ## Algorithms course
 
-Examples from the separate Algorithms course, taught using C.
-
-| Year | Course examples |
-| --- | --- |
-| 2020 | [Algorithms 2020](algorithmes/2020/README.md) |
-| 2019 | [Algorithms 2019](algorithmes/2019/README.md) |
-| 2018 | [Algorithms 2018](algorithmes/2018/README.md) |
+[Browse the Algorithms course](algorithmes/README.md), taught using C.
 
 ## Additional resources
 

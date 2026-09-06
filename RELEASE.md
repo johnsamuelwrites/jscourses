@@ -1,5 +1,9 @@
 # Unreleased
 
+- Add an Algorithms course index with all available years, including new 2021 and 2023 topic summaries.
+- Point Algorithms navigation and year-page back links to its own index.
+- Reorganize the Python and HTML5 Canvas indexes with course tables and repository back links.
+
 # v1.1
 ===============================================================================
 

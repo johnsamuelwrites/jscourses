@@ -1,12 +1,21 @@
-# [Big Data and Data Mining 2018](2018/README.md)
+# Python
 
-Python Jupyter notebooks for Data Mining and Big Data from 2018
+Jupyter notebooks and course examples for data analysis, data mining, and big data.
 
+## Courses by year
 
-# [Data Mining 2017](2017/README.md)
+| Year | Course | Topics | Browse |
+| --- | --- | --- | --- |
+| 2018 | Data mining | Python fundamentals, JSON and CSV files, data analysis, and visualization | [Notebooks](2018/DataMining/README.md) |
+| 2018 | Big data | Data analysis and visualization | [Notebooks](2018/BigData/README.md) |
+| 2017 | Data mining | Python fundamentals, JSON and CSV files, data analysis, and visualization | [Notebooks](2017/README.md) |
 
-Python Jupyter notebooks for Data Mining from 2017
+## Additional resources
 
-# Author
-* John Samuel
+- [2018 course overview and libraries](2018/README.md)
 
+## Author
+
+John Samuel
+
+[Back to JSCourses](../README.md)

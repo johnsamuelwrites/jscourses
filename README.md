@@ -7,10 +7,9 @@ Course notes, personal experiments, and live coding examples by John Samuel, col
 | Course or collection | Topics | Browse |
 | --- | --- | --- |
 | C programming | Data types, control flow, pointers, memory allocation, and file operations | [Examples by year](c/README.md#c-programming-course) |
-| Algorithms | Examples in C from the separate Algorithms course | [Examples by year](c/README.md#algorithms-course) |
+| Algorithms | Examples in C from the separate Algorithms course | [Examples by year](c/algorithmes/README.md) |
 | Python | Data analysis, data mining, and big data notebooks | [Python examples](python/README.md) |
 | HTML5 Canvas | Basic canvas programming | [Canvas examples](html/README.md) |
-
 
 ## Teaching repositories
 

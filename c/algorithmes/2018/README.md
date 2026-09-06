@@ -21,4 +21,4 @@ Algorithms course examples in C for the 2018–2019 academic year.
 
 This course has two groups: [Group 1](groupe1/) and [Group 2](groupe2/).
 
-[Back to C programming](../../README.md)
+[Back to Algorithms](../README.md)

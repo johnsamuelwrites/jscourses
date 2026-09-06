@@ -21,4 +21,4 @@ Algorithms course examples in C for the 2020–2021 academic year.
 
 [Browse all source files](./).
 
-[Back to C programming](../../README.md)
+[Back to Algorithms](../README.md)
