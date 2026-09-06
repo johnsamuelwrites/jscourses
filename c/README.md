@@ -1,45 +1,36 @@
-# 2023
-## [C 2023](2023/README.md)
+# C programming
 
-# 2022
-## [C 2022](2022/README.md)
+Course notes and live coding examples, organized by year.
 
-# 2021
-## [C 2021](2021/README.md)
+## C programming course
 
-Notes and examples of C Programming from 2020
+| Year | Course examples |
+| --- | --- |
+| 2026 | [C 2026](2026/README.md) |
+| 2025 | [C 2025](2025/README.md) |
+| 2024 | [C 2024](2024/README.md) |
+| 2023 | [C 2023](2023/README.md) |
+| 2022 | [C 2022](2022/README.md) |
+| 2021 | [C 2021](2021/README.md) |
+| 2020 | [C 2020](2020/README.md) |
+| 2019 | [C 2019](2019/README.md) |
+| 2018 | [C 2018](2018/README.md) |
+| 2017 | [C 2017](2017/README.md) |
 
-# 2020
-## [C 2020](2020/README.md)
+## Algorithms course
 
-Notes and examples of C Programming from 2020
+Examples from the separate Algorithms course, taught using C.
 
-## [C and Algorithm 2020](algorithmes/2020/README.md)
+| Year | Course examples |
+| --- | --- |
+| 2020 | [Algorithms 2020](algorithmes/2020/README.md) |
+| 2019 | [Algorithms 2019](algorithmes/2019/README.md) |
+| 2018 | [Algorithms 2018](algorithmes/2018/README.md) |
 
-Notes and examples of C Programming (Algorithm) from 2020
+## Additional resources
 
-# 2019
-## [C 2019](2019/README.md)
+- [Evolution of C standards](normes/README.md)
 
-Notes and examples of C Programming from 2019
+## Author
 
-## [C and Algorithm 2019](algorithmes/2019/README.md)
-
-Notes and examples of C Programming (Algorithm) from 2019
-
-# 2018
-## [C 2018](2018/README.md)
-
-Notes and examples of C Programming from 2018
-
-## [C and Algorithm 2018](algorithmes/2018/README.md)
-
-Notes and examples of C Programming (Algorithm) from 2018
-
-# 2017
-## [C 2017](2017/README.md)
-
-Programming Notes from 2017
-
-# Author
 John Samuel

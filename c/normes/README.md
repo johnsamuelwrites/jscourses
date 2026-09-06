@@ -52,3 +52,5 @@ La seconde commande doit échouer : `fonction()` signifie désormais « aucun pa
 `make versions` affiche normalement : macro absente en C90, `199901` en C99, `201112` en C11, `201710` en C17 et `202311` en C23. La macro décrit le mode de langage, pas une garantie de prise en charge complète de toute la bibliothèque.
 
 Préciser `-std=...` rend le choix visible et reproductible. `-pedantic-errors` fait rejeter les extensions nécessitant un diagnostic ; cela ne prouve pas à lui seul la portabilité de tout un programme. Le mode `gnu23` autorise aussi des extensions GNU.
+
+[Back to C programming](../README.md)

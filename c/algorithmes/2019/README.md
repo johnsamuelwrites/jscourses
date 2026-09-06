@@ -1,21 +1,21 @@
-# Examples related to C programming (Algorithm)
+# Algorithms 2019
 
-Year: 2019-2020
+Algorithms course examples in C for the 2019–2020 academic year.
 
- * Preprocessing
- * Data types
- * Enumerated Data types
- * Structures and Unions
- * Operators
- * Memory allocation
- * Command line arguments
- * Loops
- * Pointers
- * File operations (open, read, write, close)
- * Input and Output
- * Manipulation of strings (sscanf, sprintf, atoi,...)
+## Topics and examples
 
-These course has two groups: Group 1 and Group 2.
+| Topic | Source code |
+| --- | --- |
+| Output and data types | [bonjour.c](bonjour.c), [bonjour-char.c](bonjour-char.c), [bonjour-int.c](bonjour-int.c), [bool.c](bool.c) |
+| Sizes and limits | [sizeof.c](sizeof.c), [limits.c](limits.c), [octets.c](octets.c) |
+| Bit shifts | [decalage.c](decalage.c) |
+| Pointers | [ptr.c](ptr.c), [iptr.c](iptr.c), [sptr.c](sptr.c), [voidptr.c](voidptr.c) |
+| Enumerations, structures, and type aliases | [enum.c](enum.c), [struct.c](struct.c), [structstruct.c](structstruct.c), [typedef.c](typedef.c) |
+| Conditions and loops | [switch.c](switch.c), [while-break.c](while-break.c) |
+| Command line arguments | [arg.c](arg.c), [argplurivaleur.c](argplurivaleur.c) |
 
-Refer [Source code (*.h and *.c)](./)
+## Source code
 
+[Browse all source files](./).
+
+[Back to C programming](../../README.md)
