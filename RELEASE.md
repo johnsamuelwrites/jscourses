@@ -1,3 +1,14 @@
+# Unreleased
+
+# v1.1
+===============================================================================
+
+- Reorganize the main README with course navigation, teaching repositories, and archive links.
+- Separate C programming and Algorithms into distinct course sections.
+- Add C course READMEs for 2024 and 2025 and a course page for 2026.
+- Summarize topics with direct source links in the C 2017–2025 and Algorithms 2018–2020 READMEs.
+- Add back links to the C programming index and standardize course README formatting.
+
 # v1.0
 ===============================================================================
 - Add example code from classes 1-5
